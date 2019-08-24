@@ -177,6 +177,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Domain\Providers\Validation\ForbiddenValidationProvider::class,
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
     ],
 
     /*

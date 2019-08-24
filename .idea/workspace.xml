@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10538f8f-9dda-46ab-828d-a32cd2f9ce50" name="Default Changelist" comment="" />
+    <list default="true" id="10538f8f-9dda-46ab-828d-a32cd2f9ce50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Domain/Models/Collections/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,38 +73,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="1" />
+          <entry key="env" value="2" />
           <entry key="example" value="3" />
           <entry key="json" value="2" />
-          <entry key="php" value="70" />
-          <entry key="xml" value="2" />
+          <entry key="php" value="74" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="4" />
+          <entry key=".env file" value="5" />
           <entry key="JSON" value="2" />
-          <entry key="PHP" value="70" />
-          <entry key="XML" value="2" />
+          <entry key="PHP" value="74" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="env" value="37" />
+          <entry key="env" value="102" />
           <entry key="example" value="19" />
           <entry key="json" value="2" />
-          <entry key="php" value="2755" />
-          <entry key="xml" value="14" />
+          <entry key="php" value="2831" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="56" />
+          <entry key=".env file" value="121" />
           <entry key="JSON" value="2" />
-          <entry key="PHP" value="2755" />
+          <entry key="PHP" value="2831" />
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="XML" value="14" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -106,28 +112,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Domain/Services/UserService.php">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Domain/Models/Tables/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="98" column="33" lean-forward="true" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
+            <state relative-caret-position="316">
+              <caret line="67" column="59" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="59" />
+              <caret line="68" column="53" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="53" />
+              <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="50" />
+              <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="50" />
+              <caret line="71" column="50" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Domain/Models/Tables/Role.php">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/BaseModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#49#109#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpunit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -157,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Exceptions/SystemExceptions/RepositoryException.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Repositories/BaseRepository.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
@@ -180,7 +209,6 @@
         <option value="$PROJECT_DIR$/app/Domain/Repositories/Tables/BaseRepository.php" />
         <option value="$PROJECT_DIR$/app/Domain/Repositories/Tables/UserRepository.php" />
         <option value="$PROJECT_DIR$/app/Domain/Models/Tables/BaseModel.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Models/Collections/BaseModel.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_23_053823_create_roles_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserSeeder.php" />
@@ -196,9 +224,7 @@
         <option value="$PROJECT_DIR$/app/Http/FormRequests/AuthFormRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/FormRequests/UserFormRequest.php" />
         <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Providers/Validation/ForbiddenValidationProvider.php" />
         <option value="$PROJECT_DIR$/tests/Fixture.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Providers/Validation/ForbiddenValidationProviderTest.php" />
@@ -206,8 +232,13 @@
         <option value="$PROJECT_DIR$/app/Domain/Services/UserService.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Repositories/Tables/UserRepositoryTest.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Services/UserServiceTest.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/app/Domain/Models/Tables/User.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Models/Collections/BaseModel.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Models/Collections/Post.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -368,93 +399,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="Tables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="FormRequests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-              <item name="Validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="Tables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="Collections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,7 +409,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Tables/User.php&#10;BaseSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Services/BaseService.php&#10;UserFac&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/UserFactory.php&#10;UserRepo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Repositories/Tables/UserRepository.php&#10;Forbi&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Forb&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Fo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/FormRequests/UserFormRequest.php&#10;basemode&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Collections/BaseModel.php&#10;ProviderRe&#9;null&#9;null&#10;app.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;json&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/composer.json&#10;Form&#9;null&#9;null&#10;UserSee&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/seeds/UserSeeder.php&#10;Auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/AuthController.php&#10;env&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/.env&#10;create_us&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/migrations/2019_08_23_054501_create_users_table.php&#10;UserContr&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/UserController.php&#10;BaseS&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/BaseService.php&#10;user&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;NotFoundE&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Exceptions/BusinessRuleExceptions/UserNotFoundException.php&#10;use&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;Route&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/auth.php&#10;UserService&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;app&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/config/app.php&#10;UserReq&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/FormRequests/UserFormRequest.php&#10;Service&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;auth.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/config/auth.php&#10;user.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;RouteSe&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;AuthController&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/Controllers/AuthController.php&#10;BaseMod&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Models/BaseModel.php&#10;composer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/composer.json&#10;UserSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;AppServ&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/AppServiceProvider.php&#10;Provide&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="database&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;app&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;User&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Tables/User.php&#10;BaseSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Services/BaseService.php&#10;UserFac&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/UserFactory.php&#10;UserRepo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Repositories/Tables/UserRepository.php&#10;Forbi&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Forb&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Fo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/FormRequests/UserFormRequest.php&#10;basemode&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Collections/BaseModel.php&#10;ProviderRe&#9;null&#9;null&#10;app.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;json&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/composer.json&#10;Form&#9;null&#9;null&#10;UserSee&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/seeds/UserSeeder.php&#10;Auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/AuthController.php&#10;env&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/.env&#10;create_us&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/migrations/2019_08_23_054501_create_users_table.php&#10;UserContr&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/UserController.php&#10;BaseS&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/BaseService.php&#10;user&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;NotFoundE&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Exceptions/BusinessRuleExceptions/UserNotFoundException.php&#10;use&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;Route&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/auth.php&#10;UserService&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;UserReq&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/FormRequests/UserFormRequest.php&#10;Service&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;auth.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/config/auth.php&#10;user.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;RouteSe&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;AuthController&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/Controllers/AuthController.php&#10;BaseMod&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Models/BaseModel.php&#10;composer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/composer.json&#10;UserSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;AppServ&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/AppServiceProvider.php&#10;Provide&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -480,11 +425,11 @@
       <recent name="$PROJECT_DIR$/app/Domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Domain/Models/Collections" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/database/factories" />
       <recent name="$PROJECT_DIR$/app/Domain/Components/Enumerators" />
       <recent name="$PROJECT_DIR$/database/seeds" />
-      <recent name="$PROJECT_DIR$/database/migrations" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -558,17 +503,11 @@
       <workItem from="1566256974104" duration="2630000" />
       <workItem from="1566294256712" duration="3138000" />
       <workItem from="1566550410806" duration="6909000" />
-      <workItem from="1566648267776" duration="7293000" />
+      <workItem from="1566648267776" duration="9174000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceTest_should_not_finding_an_user_because_it_was_deleted_throwing_exception - 2019.08.24 at 12h 14m 41s.xml">
-      <configuration name="UserServiceTest.should_not_finding_an_user_because_it_was_deleted_throwing_exception" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserServiceTest_should_not_finding_an_user_because_it_was_deleted_throwing_exception - 2019.08.24 at 12h 16m 19s.xml">
-      <configuration name="UserServiceTest.should_not_finding_an_user_because_it_was_deleted_throwing_exception" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="UserServiceTest_should_not_finding_an_user_because_it_was_deleted_throwing_exception - 2019.08.24 at 12h 17m 04s.xml">
       <configuration name="UserServiceTest.should_not_finding_an_user_because_it_was_deleted_throwing_exception" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -593,19 +532,26 @@
     <history-entry file="Suit_Test - 2019.08.24 at 12h 28m 45s.xml">
       <configuration name="Suit Test" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Suit_Test - 2019.08.24 at 13h 09m 07s.xml">
+      <configuration name="Suit Test" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Suit_Test - 2019.08.24 at 13h 26m 49s.xml">
+      <configuration name="Suit Test" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31034000" />
+    <option name="totallyTimeSpent" value="32915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="102" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26962677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26962677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,7 +559,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36878452" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36878452" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -685,8 +631,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Domain/Components/ImportCentral/ImportEngine.php" />
-    <entry file="file://$PROJECT_DIR$/app/Domain/Components/ImportCentral/Importable/ImportableFactory.php" />
     <entry file="file://$PROJECT_DIR$/app/Exceptions/SystemExceptions/ImportableNotFoundException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -796,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675">
@@ -821,13 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="178" column="75" selection-start-line="178" selection-start-column="75" selection-end-line="178" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -857,13 +787,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Console/Kernel.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/BaseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -990,13 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Components/Helpers/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1020,8 +936,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Models/Tables/Role.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="273">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#49#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="67" column="59" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="59" />
+          <caret line="68" column="53" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="53" />
+          <caret line="69" column="50" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="50" />
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="50" />
+          <caret line="71" column="50" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>

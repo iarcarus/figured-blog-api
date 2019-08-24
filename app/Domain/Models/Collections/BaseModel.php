@@ -13,6 +13,8 @@ abstract class BaseModel extends Eloquent
 
     protected $dates = ['deleted_at'];
 
+    public $connection = 'mongodb';
+
     /**
      * Error message bag
      *
