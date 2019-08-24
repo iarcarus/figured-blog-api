@@ -4,8 +4,9 @@ namespace Tests\Domain\Repositories\Collections;
 
 use App\Domain\Models\Collections\Post;
 use App\Domain\Repositories\Collections\PostRepository;
-use Faker\Provider\en_US\Text;
+use Faker\Provider\Lorem;
 use Faker\Provider\pt_BR\Person;
+use Illuminate\Support\Facades\Schema;
 use Tests\Fixture;
 use Tests\TestCase;
 
@@ -20,10 +21,12 @@ class PostRepositoryTest extends TestCase
     {
         parent::setUp();
         $this->faker->addProvider(new Person($this->faker));
-        $this->faker->addProvider(new Text($this->faker));
+        $this->faker->addProvider(new Lorem($this->faker));
         $this->repository = new PostRepository();
 
-        $this->app['db']->connection('mongodb')->drop();
+        $this->beforeApplicationDestroyed(function () {
+            Schema::connection('mongodb')->drop('posts');
+        });
     }
 
     /**
@@ -47,7 +50,7 @@ class PostRepositoryTest extends TestCase
 
         $originalTittle = $post->tittle;
 
-        $post = $this->repository->update($post, ['tittle' => $this->faker->title]);
+        $post = $this->repository->update($post, ['tittle' => $this->faker->word]);
 
         $this->assertNotEquals($originalTittle, $post->tittle);
     }

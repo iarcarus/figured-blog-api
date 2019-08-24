@@ -29,7 +29,7 @@ class Post extends BaseModel
             'tittle'     => 'required',
             'short_text' => 'required',
             'text'       => 'required',
-            'author_id'  => 'required|exists:users,id',
+//            'author_id'  => 'required|exists:users,id',
             'tumblr'     => 'nullable',
         ];
     }

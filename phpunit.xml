@@ -19,17 +19,16 @@
         </whitelist>
     </filter>
     <php>
-        <server name="APP_ENV" value="testing"/>
-        <server name="BCRYPT_ROUNDS" value="4"/>
-        <server name="CACHE_DRIVER" value="array"/>
-        <server name="MAIL_DRIVER" value="array"/>
-        <server name="QUEUE_CONNECTION" value="sync"/>
-        <server name="SESSION_DRIVER" value="array"/>
-        <server name="DEFAULT_PASSWORD" value="Figured@2019"/>
-        <server name="QUEUE_DRIVER" value="array"/>
-        <server name="DB_CONNECTION" value="sqlite"/>
-        <server name="DB_HOST" value=":memory:"/>
-        <server name="MAIL_DRIVER" value="log"/>
-        <server name="MONGODB_DATABASE" value="figured_blog_test"/>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_DRIVER" value="array"/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_FOREIGN_KEYS" value="true"/>
+        <env name="MAIL_DRIVER" value="log"/>
+        <env name="MONGODB_DATABASE" value="figured_blog_test"/>
+        <env name="DEFAULT_PASSWORD" value="Figured@2019"/>
+        <env name="BCRYPT_ROUNDS" value="4"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
     </php>
 </phpunit>

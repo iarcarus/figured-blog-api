@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10538f8f-9dda-46ab-828d-a32cd2f9ce50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gympass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gympass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Domain/Models/Collections/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Models/Collections/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Domain/Models/Tables/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Models/Tables/BaseModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,47 +96,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Blog/figured_blog/posts" value="6" />
+          <entry key="Blog/figured_blog/posts" value="7" />
+          <entry key="Blog/figured_blog3/posts" value="1" />
+          <entry key="Blog/figured_blog_test/posts" value="3" />
           <entry key="Blog/local/startup_log" value="1" />
           <entry key="Siv-Homologation/figured_blog/posts" value="1" />
           <entry key="composer" value="1" />
-          <entry key="env" value="7" />
-          <entry key="example" value="6" />
+          <entry key="env" value="8" />
+          <entry key="example" value="7" />
           <entry key="gitignore" value="3" />
-          <entry key="json" value="4" />
-          <entry key="php" value="112" />
+          <entry key="json" value="6" />
+          <entry key="php" value="136" />
           <entry key="users" value="1" />
           <entry key="version" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="13" />
-          <entry key="JSON" value="4" />
-          <entry key="MONGO" value="10" />
-          <entry key="PHP" value="113" />
+          <entry key=".env file" value="15" />
+          <entry key="JSON" value="6" />
+          <entry key="MONGO" value="15" />
+          <entry key="PHP" value="137" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="env" value="191" />
+          <entry key="env" value="199" />
           <entry key="example" value="20" />
-          <entry key="json" value="8" />
-          <entry key="php" value="3252" />
-          <entry key="xml" value="39" />
+          <entry key="json" value="9" />
+          <entry key="php" value="3531" />
+          <entry key="xml" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="211" />
-          <entry key="JSON" value="8" />
-          <entry key="PHP" value="3252" />
+          <entry key=".env file" value="219" />
+          <entry key="JSON" value="9" />
+          <entry key="PHP" value="3531" />
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="XML" value="39" />
+          <entry key="XML" value="103" />
         </counts>
       </usages-collector>
     </session>
@@ -144,44 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="73" column="57" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="52" selection-start-line="52" selection-end-line="59" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.example">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="1155" selection-start-line="1155" selection-end-line="1155" />
+            <state relative-caret-position="-408">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -189,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Domain/Models/Tables/BaseModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#44#104#0#PHP" expanded="true" />
               </folding>
@@ -199,10 +167,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="e#25#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/factories/PostFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="e#7#46#0#PHP" expanded="true" />
               </folding>
@@ -211,10 +209,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/Post.php">
+        <entry file="file://$PROJECT_DIR$/phpunit.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -284,20 +282,20 @@
         <option value="$PROJECT_DIR$/app/Domain/Repositories/Collections/BaseRepository.php" />
         <option value="$PROJECT_DIR$/app/Domain/Repositories/Collections/PostRepository.php" />
         <option value="$PROJECT_DIR$/app/Domain/Services/PostService.php" />
-        <option value="$PROJECT_DIR$/tests/TestCase.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_24_172709_create_post_collection.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_24_172709_create_posts_collection.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" />
-        <option value="$PROJECT_DIR$/database/factories/PostFactory.php" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Domain/Models/Collections/Post.php" />
         <option value="$PROJECT_DIR$/app/Domain/Models/Tables/BaseModel.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/database/factories/PostFactory.php" />
+        <option value="$PROJECT_DIR$/tests/TestCase.php" />
+        <option value="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" />
       </list>
     </option>
   </component>
@@ -413,6 +411,9 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -513,7 +514,7 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
               <item name="Repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="Tables" type="462c0819:PsiDirectoryNode" />
+              <item name="Collections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -522,9 +523,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Base&#9;null&#9;null&#10;PostFac&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/PostFactory.php&#10;env&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/.env&#10;data&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;PostRe&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Repositories/Collections/PostRepositoryTest.php&#10;Post&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Collections/Post.php&#10;apph&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;UserCon&#9;null&#9;null&#10;dat&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;UserFact&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/UserFactory.php&#10;database&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;app&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;User&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Tables/User.php&#10;BaseSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Services/BaseService.php&#10;UserFac&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/UserFactory.php&#10;UserRepo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Repositories/Tables/UserRepository.php&#10;Forbi&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Forb&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Fo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/FormRequests/UserFormRequest.php&#10;basemode&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Collections/BaseModel.php&#10;ProviderRe&#9;null&#9;null&#10;app.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;json&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/composer.json&#10;Form&#9;null&#9;null&#10;UserSee&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/seeds/UserSeeder.php&#10;Auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/AuthController.php&#10;create_us&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/migrations/2019_08_23_054501_create_users_table.php&#10;UserContr&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/UserController.php&#10;BaseS&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/BaseService.php&#10;user&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;NotFoundE&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Exceptions/BusinessRuleExceptions/UserNotFoundException.php&#10;use&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;Route&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/auth.php&#10;UserService&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;UserReq&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/FormRequests/UserFormRequest.php&#10;Service&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;auth.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/config/auth.php&#10;user.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;RouteSe&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;AuthController&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/Controllers/AuthController.php&#10;BaseMod&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Models/BaseModel.php&#10;composer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/composer.json&#10;UserSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;AppServ&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/AppServiceProvider.php&#10;Provide&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/PostFactory.php&#10;json&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/composer.json&#10;PostFac&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/PostFactory.php&#10;Base&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Tables/BaseModel.php&#10;Post&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Collections/Post.php&#10;env&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/.env&#10;data&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;xml&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/phpunit.xml&#10;PostTes&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Repositories/Collections/PostRepositoryTest.php&#10;PostRe&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Repositories/Collections/PostRepositoryTest.php&#10;apph&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;UserCon&#9;null&#9;null&#10;dat&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;UserFact&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/UserFactory.php&#10;database&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/database.php&#10;app&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;User&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Tables/User.php&#10;BaseSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Services/BaseService.php&#10;UserFac&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/factories/UserFactory.php&#10;UserRepo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Repositories/Tables/UserRepository.php&#10;Forbi&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Forb&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/tests/Domain/Providers/Validation/ForbiddenValidationProvider.php&#10;Fo&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/FormRequests/UserFormRequest.php&#10;basemode&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Domain/Models/Collections/BaseModel.php&#10;ProviderRe&#9;null&#9;null&#10;app.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/config/app.php&#10;Form&#9;null&#9;null&#10;UserSee&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/seeds/UserSeeder.php&#10;Auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/AuthController.php&#10;create_us&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/database/migrations/2019_08_23_054501_create_users_table.php&#10;UserContr&#9;FILE&#9;file:///home/andre_medalha/Projetos/figured-blog-api/app/Http/Controllers/UserController.php&#10;BaseS&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/BaseService.php&#10;user&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;NotFoundE&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Exceptions/BusinessRuleExceptions/UserNotFoundException.php&#10;use&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;Route&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;auth&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/auth.php&#10;UserService&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;UserReq&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/FormRequests/UserFormRequest.php&#10;Service&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;auth.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/config/auth.php&#10;user.php&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/routes/user.php&#10;RouteSe&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/RouteServiceProvider.php&#10;AuthController&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Http/Controllers/AuthController.php&#10;BaseMod&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Models/BaseModel.php&#10;composer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/composer.json&#10;UserSer&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Domain/Services/UserService.php&#10;AppServ&#9;FILE&#9;file:///home/andre_medalha/Projetos/gympass/app/Providers/AppServiceProvider.php&#10;Provide&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gympass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
@@ -557,17 +558,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.PostRepositoryTest.should_update_an_post_changing_its_tittle">
+  <component name="RunManager" selected="PHPUnit.tests">
     <configuration name="PostRepositoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Domain\Repositories\Collections\PostRepositoryTest" file="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="PostRepositoryTest.should_create_an_post" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Domain\Repositories\Collections\PostRepositoryTest" file="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" method="should_create_an_post" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PostRepositoryTest.should_find_an_post" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Domain\Repositories\Collections\PostRepositoryTest" file="$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php" method="should_find_an_post" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="PostRepositoryTest.should_not_finding_an_post_because_it_was_deleted" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -582,21 +579,25 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="PHPUnit.Suit Test" />
       <item itemvalue="PHPUnit.PostRepositoryTest.should_create_an_post" />
       <item itemvalue="PHPUnit.PostRepositoryTest" />
       <item itemvalue="PHPUnit.PostRepositoryTest.should_update_an_post_changing_its_tittle" />
-      <item itemvalue="PHPUnit.PostRepositoryTest.should_find_an_post" />
       <item itemvalue="PHPUnit.PostRepositoryTest.should_not_finding_an_post_because_it_was_deleted" />
+      <item itemvalue="PHPUnit.tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.tests" />
         <item itemvalue="PHPUnit.PostRepositoryTest.should_update_an_post_changing_its_tittle" />
         <item itemvalue="PHPUnit.PostRepositoryTest.should_create_an_post" />
         <item itemvalue="PHPUnit.PostRepositoryTest" />
         <item itemvalue="PHPUnit.PostRepositoryTest.should_not_finding_an_post_because_it_was_deleted" />
-        <item itemvalue="PHPUnit.PostRepositoryTest.should_find_an_post" />
       </list>
     </recent_temporary>
   </component>
@@ -618,60 +619,61 @@
       <workItem from="1566550410806" duration="6909000" />
       <workItem from="1566648267776" duration="9507000" />
       <workItem from="1566664619087" duration="2867000" />
-      <workItem from="1566667809741" duration="8481000" />
+      <workItem from="1566667809741" duration="13398000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 16m 42s.xml">
+    <history-entry file="tests - 2019.08.24 at 20h 42m 16s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="tests - 2019.08.24 at 20h 44m 33s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 20h 45m 26s.xml">
       <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 18m 49s.xml">
+    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 20h 45m 47s.xml">
       <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 19m 16s.xml">
+    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 20h 46m 21s.xml">
       <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 19m 49s.xml">
+    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 20h 49m 30s.xml">
       <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 24m 14s.xml">
-      <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="tests - 2019.08.24 at 20h 49m 35s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 24m 43s.xml">
-      <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="tests - 2019.08.24 at 20h 50m 14s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 24m 44s.xml">
-      <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="tests - 2019.08.24 at 20h 50m 31s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 25m 21s.xml">
-      <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 25m 49s.xml">
-      <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PostRepositoryTest_should_update_an_post_changing_its_tittle - 2019.08.24 at 19h 27m 18s.xml">
-      <configuration name="PostRepositoryTest.should_update_an_post_changing_its_tittle" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="tests - 2019.08.24 at 20h 50m 33s.xml">
+      <configuration name="tests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44596000" />
+    <option name="totallyTimeSpent" value="49513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="102" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26962677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39917126" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32872927" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3218232" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -701,11 +703,6 @@
           <line>103</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php</url>
-          <line>47</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -713,7 +710,9 @@
         <watch expression="static::$app['db']-&gt;connection($name)" />
       </configuration>
       <configuration name="PHPUnitRunConfigurationType">
+        <watch expression="\App\Domain\Models\Tables\User::all()-&gt;toArray()" language="PHP" />
         <watch expression="$post-&gt;toArray()" language="PHP" />
+        <watch expression="$this-&gt;faker-&gt;title" />
       </configuration>
     </watches-manager>
   </component>
@@ -725,12 +724,22 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$post-&gt;author</expression-string>
+        <expression-string>\App\Domain\Models\Tables\User::all()-&gt;toArray()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>\App\Domain\Models\Tables\User::get()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>env('MONGODB_DATABASE')</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$post-&gt;author</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -754,44 +763,9 @@
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>$this-&gt;faker</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$validator-&gt;errors()-&gt;all()</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/FormRequests/AuthFormRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CreatesApplication.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Console/Kernel.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/FormRequests/BaseFormRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -975,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mongodb/mongodb/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -993,13 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="230" column="67" selection-start-line="230" selection-start-column="67" selection-end-line="230" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1038,27 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="52" selection-start-line="52" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -1076,6 +1015,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jenssegers/mongodb/src/Jenssegers/Mongodb/Eloquent/HybridRelations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1083,44 +1036,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/PostFactory.php">
+    <entry file="file://$PROJECT_DIR$/tests/CreatesApplication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#7#46#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="1154" column="40" lean-forward="true" selection-start-line="1154" selection-start-column="40" selection-end-line="1154" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Models/Collections/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabaseState.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Models/Tables/BaseModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#44#104#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php">
+    <entry file="file://$PROJECT_DIR$/database/factories/PostFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="180">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#7#46#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="1155" selection-start-line="1155" selection-end-line="1155" />
+        <state relative-caret-position="195">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#25#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/Repositories/Collections/PostRepositoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

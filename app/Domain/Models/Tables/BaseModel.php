@@ -12,8 +12,6 @@ class BaseModel extends Eloquent
 {
     use SoftDeletes, HybridRelations;
 
-    protected $connection = 'mysql';
-
     /**
      * Error message bag.
      *
