@@ -20,9 +20,5 @@ abstract class TestCase extends BaseTestCase
         parent::setUp();
 
         $this->faker = new Faker();
-
-//        $this->beforeApplicationDestroyed(function () {
-//            $this->app['db']->connection('mongodb')->drop();
-//        });
     }
 }

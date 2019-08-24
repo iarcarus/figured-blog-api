@@ -6,10 +6,13 @@ use App\Exceptions\BusinessExceptions\ModelInvalidException;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\MessageBag;
+use Jenssegers\Mongodb\Eloquent\HybridRelations;
 
 class BaseModel extends Eloquent
 {
-    use SoftDeletes;
+    use SoftDeletes, HybridRelations;
+
+    protected $connection = 'mysql';
 
     /**
      * Error message bag.
