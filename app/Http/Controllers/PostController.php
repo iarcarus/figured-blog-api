@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Domain\Services\PostService;
 use App\Http\FormRequests\PostFormRequest;
 use Illuminate\Support\Facades;
-use MongoDB\BSON\ObjectId;
-use MongoId;
 use Symfony\Component\HttpFoundation;
 
 class PostController extends Controller
@@ -27,7 +25,7 @@ class PostController extends Controller
 
     public function show($id)
     {
-        $this->response['data'] = $this->postService->findOneBy('tittle', $id);
+        $this->response['data'] = $this->postService->findOneBy('_id', $id);
 
         return Facades\Response::json($this->response, HttpFoundation\Response::HTTP_OK);
     }

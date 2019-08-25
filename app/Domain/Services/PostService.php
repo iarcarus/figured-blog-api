@@ -64,7 +64,7 @@ class PostService extends BaseService
 
     public function findBy($key, $value): Collection
     {
-        return $this->repository->query()->where('posts.' . $key, $value)->get();
+        return $this->repository->query()->where($key, $value)->get();
     }
 
     public function delete(int $id)
