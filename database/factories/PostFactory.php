@@ -8,15 +8,10 @@ use Faker\Provider\Lorem;
 $factory->define(Post::class, function (Faker $faker) {
     $faker->addProvider(new Lorem($faker));
 
-    $text = $faker->text(200);
-
-    $author = User::firstOrCreate();
-
     return [
-        'tittle'     => $faker->word,
-        'short_text' => substr($text, 0, 20),
-        'text'       => $text,
-        'author_id'  => $author->id,
-        'tumblr'     => null,
+        'tittle' => $faker->word,
+        'text'   => $faker->text(200),
+        'author' => User::firstOrCreate()->toArray(),
+        'tumblr' => null,
     ];
 });

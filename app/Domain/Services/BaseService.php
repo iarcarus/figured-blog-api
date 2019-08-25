@@ -6,11 +6,13 @@ use App\Exceptions\SystemExceptions\ServiceException;
 
 /**
  * @property UserService userService
+ * @property PostService postService
  */
 class BaseService
 {
     const SERVICES = [
         'userService' => UserService::class,
+        'postService' => PostService::class,
     ];
 
     public function __get($service)

@@ -70,4 +70,9 @@ abstract class BaseRepository
     {
         return $this->makeModel()::find($id);
     }
+
+    public function query()
+    {
+        return $this->makeModel()::query();
+    }
 }

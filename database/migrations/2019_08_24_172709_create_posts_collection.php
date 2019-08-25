@@ -17,9 +17,8 @@ class CreatePostsCollection extends Migration
     {
         Schema::connection($this->connection)->table('posts', function (Blueprint $collection) {
             $collection->string('tittle');
-            $collection->string('short_text');
             $collection->string('text');
-            $collection->string('tumblr');
+            $collection->string('tumblr')->nullable();
         });
     }
 

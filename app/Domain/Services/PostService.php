@@ -4,7 +4,6 @@ namespace App\Domain\Services;
 
 use App\Domain\Models\Collections\Post;
 use App\Domain\Repositories\Collections\PostRepository;
-use App\Exceptions\BusinessExceptions\PostCannotDeleteItselfException;
 use App\Exceptions\BusinessExceptions\PostNotFoundException;
 use Illuminate\Database\Eloquent\Collection;
 
@@ -27,55 +26,51 @@ class PostService extends BaseService
 
     public function createOrUpdate($id, array $attributes)
     {
-        /** @var Post $user */
-        $user = $this->userService->findBy('id', $id)->first();
+        /** @var Post $post */
+        $post = $this->postService->findBy('_id', $id)->first();
 
-        if (!$user instanceof Post) {
-            return $this->userService->create($attributes);
+        if (!$post instanceof Post) {
+            return $this->postService->create($attributes);
         }
 
-        return $this->repository->update($user, $attributes);
+        return $this->repository->update($post, $attributes);
     }
 
     public function create(array $attributes): Post
     {
-        $attributes['password'] = bcrypt($attributes['password'] ?? env('DEFAULT_PASSWORD', 'Figured@2019'));
+        $attributes['author']  = logged_user()->toArray();
 
         return $this->repository->create($attributes);
     }
 
-    public function update(int $id, array $attributes): Post
+    public function update($id, array $attributes): Post
     {
-        $user = $this->userService->findOneBy('id', $id);
+        $post = $this->postService->findOneBy('_id', $id);
 
-        return $this->repository->update($user, $attributes);
+        return $this->repository->update($post, $attributes);
     }
 
     public function findOneBy($key, $value): Post
     {
-        /** @var Post $user */
-        $user = $this->userService->findBy($key, $value)->first();
+        /** @var Post $post */
+        $post = $this->postService->findBy($key, $value)->first();
 
-        if (!$user instanceof Post) {
+        if (!$post instanceof Post) {
             throw new PostNotFoundException();
         }
 
-        return $user;
+        return $post;
     }
 
     public function findBy($key, $value): Collection
     {
-        return $this->repository->query()->where('users.' . $key, $value)->get();
+        return $this->repository->query()->where('posts.' . $key, $value)->get();
     }
 
     public function delete(int $id)
     {
-        $user = $this->userService->findOneBy('id', $id);
+        $post = $this->postService->findOneBy('_id', $id);
 
-        if ($user->isLoggedPost()) {
-            throw new PostCannotDeleteItselfException();
-        }
-
-        return $this->repository->delete($user->id);
+        return $this->repository->delete($post->id);
     }
 }

@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -192,7 +192,6 @@ return [
     */
 
     'aliases' => [
-
         'App'          => Illuminate\Support\Facades\App::class,
         'Arr'          => Illuminate\Support\Arr::class,
         'Artisan'      => Illuminate\Support\Facades\Artisan::class,
@@ -230,5 +229,4 @@ return [
         'View'         => Illuminate\Support\Facades\View::class,
         'Moloquent'    => Jenssegers\Mongodb\Eloquent\Model::class,
     ],
-
 ];

@@ -36,9 +36,9 @@ return [
     'connections' => [
 
         'sqlite' => [
-            'driver' => 'sqlite',
+            'driver'   => 'sqlite',
             'database' => ':memory:',
-            'prefix' => '',
+            'prefix'   => '',
         ],
 
         'mysql' => [
@@ -56,6 +56,7 @@ return [
             'prefix_indexes' => true,
             'strict'         => true,
             'engine'         => null,
+            'timezone'       => env('APP_MYSQL_TIMEZONE', '+0:00'),
             'options'        => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
@@ -69,8 +70,8 @@ return [
             'username' => env('MONGODB_USERNAME', ''),
             'password' => env('MONGODB_PASSWORD', ''),
             'options'  => [
-                'database'   => env('MONGODB_AUTHDATABASE', 'admin'),
-                'ssl'        => env('MONGODB_SSL', true)
+                'database' => env('MONGODB_AUTHDATABASE', 'admin'),
+                'ssl'      => env('MONGODB_SSL', true)
             ]
         ],
 

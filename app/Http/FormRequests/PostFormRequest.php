@@ -2,7 +2,7 @@
 
 namespace App\Http\FormRequests;
 
-class UserFormRequest extends BaseFormRequest
+class PostFormRequest extends BaseFormRequest
 {
     const ACTION_SHOW    = 'show';
     const ACTION_STORE   = 'store';
@@ -20,8 +20,6 @@ class UserFormRequest extends BaseFormRequest
             case self::ACTION_STORE:
                 return $this->onStore();
                 break;
-            case self::ACTION_UPDATE:
-                return $this->onUpdate();
             default:
                 return [];
                 break;
@@ -31,16 +29,8 @@ class UserFormRequest extends BaseFormRequest
     public function onStore()
     {
         return [
-            'user_form.name'    => 'required',
-            'user_form.email'   => 'required',
-            'user_form.role_id' => 'required|exists:roles,id',
-        ];
-    }
-
-    public function onUpdate()
-    {
-        return [
-            'user_form.email' => 'forbidden',
+            'post_form.tittle' => 'required',
+            'post_form.text'   => 'required'
         ];
     }
 }

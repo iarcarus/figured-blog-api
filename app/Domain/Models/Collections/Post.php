@@ -2,14 +2,12 @@
 
 namespace App\Domain\Models\Collections;
 
-use App\Domain\Models\Tables\User;
-
 /**
+ * @property string id
  * @property string tittle
- * @property string short_text
  * @property string text
  * @property string tumblr
- * @property User author
+ * @property array author
  */
 class Post extends BaseModel
 {
@@ -17,25 +15,18 @@ class Post extends BaseModel
 
     protected $fillable = [
         'tittle',
-        'short_text',
         'text',
+        'author',
         'tumblr',
-        'author_id'
     ];
 
     public function rules()
     {
         return [
-            'tittle'     => 'required',
-            'short_text' => 'required',
-            'text'       => 'required',
-//            'author_id'  => 'required|exists:users,id',
-            'tumblr'     => 'nullable',
+            'tittle' => 'required',
+            'text'   => 'required',
+            'author' => 'required',
+            'tumblr' => 'nullable',
         ];
-    }
-
-    public function author()
-    {
-        return $this->belongsTo(User::class, 'author_id', 'id');
     }
 }
