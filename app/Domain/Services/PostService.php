@@ -24,7 +24,7 @@ class PostService extends BaseService
         return $this->repository->query()->get();
     }
 
-    public function createOrUpdate($id, array $attributes)
+    public function createOrUpdate(string $id, array $attributes)
     {
         /** @var Post $post */
         $post = $this->postService->findBy('_id', $id)->first();
@@ -43,7 +43,7 @@ class PostService extends BaseService
         return $this->repository->create($attributes);
     }
 
-    public function update($id, array $attributes): Post
+    public function update(string $id, array $attributes): Post
     {
         $post = $this->postService->findOneBy('_id', $id);
 
@@ -67,7 +67,7 @@ class PostService extends BaseService
         return $this->repository->query()->where($key, $value)->get();
     }
 
-    public function delete(int $id)
+    public function delete(string $id)
     {
         $post = $this->postService->findOneBy('_id', $id);
 
