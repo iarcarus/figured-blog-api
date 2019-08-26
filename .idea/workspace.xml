@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10538f8f-9dda-46ab-828d-a32cd2f9ce50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/SystemExceptions/ImportableNotFoundException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,7 @@
           <entry key="env" value="11" />
           <entry key="example" value="10" />
           <entry key="gitignore" value="3" />
-          <entry key="json" value="8" />
+          <entry key="json" value="9" />
           <entry key="php" value="238" />
           <entry key="users" value="1" />
           <entry key="version" value="1" />
@@ -108,7 +106,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="JSON" value="8" />
+          <entry key="JSON" value="9" />
           <entry key="MONGO" value="18" />
           <entry key="PHP" value="242" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -120,7 +118,7 @@
           <entry key="dummy" value="45" />
           <entry key="env" value="232" />
           <entry key="example" value="25" />
-          <entry key="json" value="24" />
+          <entry key="json" value="31" />
           <entry key="php" value="4584" />
           <entry key="xml" value="103" />
         </counts>
@@ -128,7 +126,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="257" />
-          <entry key="JSON" value="24" />
+          <entry key="JSON" value="31" />
           <entry key="PHP" value="4584" />
           <entry key="PLAIN_TEXT" value="45" />
           <entry key="XML" value="103" />
@@ -138,11 +136,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/lang/en/exception.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -212,7 +219,6 @@
         <option value="$PROJECT_DIR$/app/Domain/Models/Collections/Post.php" />
         <option value="$PROJECT_DIR$/app/Http/FormRequests/UserFormRequest.php" />
         <option value="$PROJECT_DIR$/app/Domain/Repositories/Collections/BaseRepository.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Domain/Models/Collections/BaseModel.php" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/.env" />
@@ -231,6 +237,7 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/routes/auth.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/exception.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -399,24 +406,6 @@
               <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
               <item name="SystemExceptions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="figured-blog-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="figured-blog-api" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -524,7 +513,7 @@
       <workItem from="1566667809741" duration="23804000" />
       <workItem from="1566754578180" duration="325000" />
       <workItem from="1566755487620" duration="4285000" />
-      <workItem from="1566765633339" duration="4450000" />
+      <workItem from="1566765633339" duration="4867000" />
     </task>
     <servers />
   </component>
@@ -561,7 +550,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68979000" />
+    <option name="totallyTimeSpent" value="69396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="102" width="1600" height="873" extended-state="6" />
@@ -810,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/auth.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1022,8 +1004,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/en/exception.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
