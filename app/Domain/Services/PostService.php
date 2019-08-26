@@ -21,7 +21,7 @@ class PostService extends BaseService
 
     public function findAll(): Collection
     {
-        return $this->repository->query()->get();
+        return $this->repository->query()->orderByDesc('created_at')->get();
     }
 
     public function createOrUpdate(string $id, array $attributes)

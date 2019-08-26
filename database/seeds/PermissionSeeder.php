@@ -25,28 +25,28 @@ class PermissionSeeder extends Seeder
             Role::where('slug', Role::READER)->first()->permissions()->attach($permission->id);
         }
 
-        factory(Permission::class)->create([
+        $permissions[] = factory(Permission::class)->create([
             'permission'  => Permissions::WEB_BLOG_CREATE,
             'description' => 'Permission to create a post.'
         ]);
 
-        factory(Permission::class)->create([
+        $permissions[] = factory(Permission::class)->create([
             'permission'  => Permissions::API_BLOG_STORE,
             'description' => 'Permission to store a post.'
         ]);
 
 
-        factory(Permission::class)->create([
+        $permissions[] = factory(Permission::class)->create([
             'permission'  => Permissions::WEB_BLOG_EDIT,
             'description' => 'Permission to edit a post.'
         ]);
 
-        factory(Permission::class)->create([
+        $permissions[] = factory(Permission::class)->create([
             'permission'  => Permissions::API_BLOG_UPDATE,
             'description' => 'Permission to perform an update in a post.'
         ]);
 
-        factory(Permission::class)->create([
+        $permissions[] = factory(Permission::class)->create([
             'permission'  => Permissions::WEB_BLOG_DESTROY,
             'description' => 'Permission to delete a post.'
         ]);

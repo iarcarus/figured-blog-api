@@ -9,8 +9,8 @@ $factory->define(Post::class, function (Faker $faker) {
     $faker->addProvider(new Lorem($faker));
 
     return [
-        'tittle' => $faker->word,
-        'text'   => $faker->text(200),
+        'tittle' => $faker->sentence,
+        'text'   => $faker->text(800),
         'author' => User::firstOrCreate()->toArray(),
         'tumblr' => null,
     ];

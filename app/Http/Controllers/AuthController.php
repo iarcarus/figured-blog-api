@@ -28,13 +28,14 @@ class AuthController extends Controller
             'access_token' => $token,
             'token_type'   => 'bearer',
             'expires_in'   => auth()->factory()->getTTL() * 60,
-            'app_version'  => env('APP_VERSION', '1.0.0')
+            'app_version'  => env('APP_VERSION', '1.0.0'),
+            'user'         => logged_user()->load('role.permissions')
         ]);
     }
 
     public function me()
     {
-        return response()->json(logged_user());
+        return response()->json(['user' => logged_user()->load('role.permissions')]);
     }
 
     public function logout()
